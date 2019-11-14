@@ -13,7 +13,7 @@ shopping_cart = {}
 end
 
 def apply_coupons(cart, coupons)
-  cart.each do 
+  cart.each do |coupon|
   end 
 end
 
