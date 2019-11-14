@@ -2,7 +2,7 @@ def consolidate_cart(cart)
 grocery_cart = {}
   cart.each do |grocery_array|
     grocery_array.each do |item, item_hash|
-      grocery_cart[item][price_hash]
+      grocery_cart[item]=>item_hash
       if grocery_cart_cart[item][:count]
         grocery_cart[item][:count] += 1
       else grocery_cart[item][:count] = 1
