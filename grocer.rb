@@ -14,7 +14,8 @@ end
 
 def apply_coupons(cart, coupons)
   cart.each do |coupon|
-    item = 
+    item = coupon[:item]
+    
   end 
 end
 
