@@ -1,16 +1,15 @@
 def consolidate_cart(cart)
 grocery_cart = {}
-  new_cart = {}
-  cart.each do |_array|
-    items_array.each do |item, price_hash|
-      new_cart[item] ||= price_hash
-      if new_cart[item][:count]
-        new_cart[item][:count] += 1
-      else new_cart[item][:count] = 1
+  cart.each do |grocery_array|
+    grocery_array.each do |item, item_hash|
+      grocery_cart[item][price_hash]
+      if grocery_cart_cart[item][:count]
+        grocery_cart[item][:count] += 1
+      else grocery_cart[item][:count] = 1
       end
     end
   end
-  new_cart
+  grocery_cart
 end
 
 def apply_coupons(cart, coupons)
