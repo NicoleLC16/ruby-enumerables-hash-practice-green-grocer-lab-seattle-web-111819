@@ -1,7 +1,7 @@
 def consolidate_cart(cart)
 grocery_cart = {}
 cart.each{|grocery_item| grocery_item.each 
-{|item, item_hash| grocery_cart[item] => item_hash
+{|item, item_hash| grocery_cart[item]  item_hash
 if grocery_cart[item][:count]
   grocery_cart[item][:count] +=1
 else
