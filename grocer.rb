@@ -44,5 +44,5 @@ def checkout(cart, coupons)
   applied_coupons = apply_coupons(new_cart, coupons)
   applied_discount = apply_clearance(applied_coupons)
   
-  
+  tota = applied_discount.reduce
 end
