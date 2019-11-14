@@ -13,7 +13,8 @@ shopping_cart = {}
 end
 
 def apply_coupons(cart, coupons)
-  
+  cart.each do 
+  end 
 end
 
 def apply_clearance(cart)
